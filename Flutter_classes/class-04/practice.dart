@@ -1,6 +1,6 @@
 void main (){
-List mainlist = [9,8,6,7,5,10,3,4,2,1];
-List newlist = List.from (mainlist)..sort();
+List mainlist = [1,2,3,4,5];
+List newlist = mainlist.map((element) => element * element).toList();
 print('mainlist $mainlist');
 print('newlist $newlist');
 }
