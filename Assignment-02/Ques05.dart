@@ -10,7 +10,7 @@ void main() {
     "email": "abc@example.com",
   };
 
-  List<String> length = record.keys.where((key) => key.length == 4).toList();
+  List length = record.keys.where((key) => key.length == 4).toList();
 
   print("Keys with Length 4: $length");
 }

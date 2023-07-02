@@ -1,4 +1,7 @@
-// Q.7: Write a program to calculate and print the Electricity bill of a given customer. Create variable for customer id, name, unit consumed by the user, bill_amount and print the total amount the customer needs to pay. The charge are as follow :
+// Q.7: Write a program to calculate and print the Electricity bill of a given
+// customer. Create variable for customer id, name, unit consumed by the user, 
+// bill_amount and print the total amount the customer needs to pay. The charge
+// are as follow :
 
 // Unit    Charge/unit
 // upto 199    @1.20

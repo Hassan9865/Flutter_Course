@@ -4,7 +4,7 @@
 void main() {
   List<String> originalList = ['apple', 'banana', 'orange', 'kiwi', 'mango'];
 
-  List<String> reversedList = originalList.reversed.toList();
+  List reversedList = originalList.reversed.toList();
 
   print("Original List: $originalList");
   print("Reversed List: $reversedList");

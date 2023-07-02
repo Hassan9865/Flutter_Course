@@ -3,7 +3,7 @@
 // (°F) = (Temperature in degrees Celsius (°C) * 9/5) + 32
 
 void main() {
-  double temperatureCelsius = 25; // Change the temperature here
+  double temperatureCelsius = 25;
 
   double temperatureFahrenheit = (temperatureCelsius * 9 / 5) + 32;
 
