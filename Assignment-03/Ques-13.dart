@@ -7,8 +7,8 @@
 // 7 8 9 10
 
 void main() {
-  int rows = 5;
-  int number = 2;
+  int rows = 4;
+  int number = 1;
 
   for (int i = 1; i <= rows; i++) {
     String pattern = '';
