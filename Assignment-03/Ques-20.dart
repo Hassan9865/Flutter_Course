@@ -2,7 +2,7 @@
 // list using a for loop and if-else condition.
 
 void main() {
-  List<int> numbers = [5, 2, 8, 4, 9, 1, 6, 3, 7];
+  List numbers = [5, 2, 8, 4, 9, 1, 6, 3, 7];
 
   int maximum = numbers[0];
   int minimum = numbers[0];
