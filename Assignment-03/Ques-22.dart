@@ -18,9 +18,9 @@ List<Map<String, dynamic>> studentDetails = [
  {'name': 'Ryan', 'marks': [70, 65, 75], 'section': 'A', 'rollNumber': 103},
 ];
 
-for(int x = 0; x < studentDetails.length; x++){
+for(int i = 0; i < studentDetails.length; i++){
 
-  List<int> marks = studentDetails[x]['marks'];
+  List<int> marks = studentDetails[i]['marks'];
   int avg = 0;
 
   for(int a = 0; a < marks.length; a++){
@@ -62,9 +62,9 @@ for(int x = 0; x < studentDetails.length; x++){
     grade = 'F';
   }
 
-  studentDetails[x].putIfAbsent('Grade', () => grade);
+  studentDetails[i].putIfAbsent('Grade', () => grade);
 
-  print("Student Name: ${studentDetails[x]['name']} Grade: ${studentDetails[x]['Grade']}");
+  print("Student Name: ${studentDetails[i]['name']} Grade: ${studentDetails[i]['Grade']}");
 
 }
 }

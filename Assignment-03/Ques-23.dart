@@ -3,15 +3,15 @@
 
 void main(){
 
-  List<int> nums = [-1,2,-3,-4,-5,6,-7,8,-9];
+  List num = [-1,2,-3,-4,-5,6,-7,8,-9];
   double avg = 0;
   int count = 0;
 
-  for(int i = 0; i < nums.length; i++){
+  for(int i = 0; i < num.length; i++){
 
-    if(nums[i] < 0){
+    if(num[i] < 0){
 
-      avg = avg + nums[i];
+      avg = avg + num[i];
       count++;
     }
     else{}
