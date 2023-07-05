@@ -3,27 +3,27 @@
 // login successful." Otherwise, keep asking for the email and password
 // until the correct credentials are provided.
 
-// void main() {
-//   final String correctEmail = "user@example.com";
-//   final String correctPassword = "password";
+import 'dart:io';
 
-//   String email;
-//   String password;
+void main() {
+  final String correctEmail = 'user@example.com';
+  final String correctPassword = 'password123';
 
-//   while (true) {
-//     email = askForInput("Enter your email: ");
-//     password = askForInput("Enter your password: ");
+  var email;
+  var password;
 
-//     if (email == correctEmail && password == correctPassword) {
-//       print("User login successful.");
-//       break;
-//     } else {
-//       print("Incorrect credentials. Please try again.");
-//     }
-//   }
-// }
+  while (true) {
+    stdout.write('Enter your email: ');
+    email = stdin.readLineSync();
+    stdout.write('Enter your password: ');
+    password = stdin.readLineSync();
 
-// String askForInput(String prompt) {
-//   print(prompt);
-//   // return stdin.readLineSync()!;
-// }
+    if (email == correctEmail && password == correctPassword) {
+      print('User login successful.');
+      break;
+    } else {
+      print('Invalid email or password. Please try again.\n');
+    }
+  }
+}
+
