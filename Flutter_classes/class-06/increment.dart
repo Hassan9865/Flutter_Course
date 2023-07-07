@@ -1,5 +1,5 @@
 void main(){
-//   // pre incremet
+  // pre incremet
 //   var abc = 0;
 //   var a = ++abc;
 //   print("a value: $a");
@@ -7,11 +7,10 @@ void main(){
 // }
 
 //  // post incremet
-//   var abc = 0;
-//   var a = abc++;
-//   print("a value: $a");
-//   print("abc value: $abc");
-// }
+  var abc = 0;
+  var a = abc++;
+  print("a value: $a");
+  print("abc value: $abc");
+}
 
 //Example
-}
