@@ -1,15 +1,10 @@
-import 'dart:io';
-
-void main() {
-  bool islogin = false;
-
-  while (islogin == false) {
-    var email = stdin.readLineSync()!;
-    var pass = stdin.readLineSync()!;
-    if (email == 'abc12@.com' && pass == '123') {
-      print('login successful');
-    } else {
-      print('login failed');
-    }
+void main (){
+  int num  = 5;
+  int factorial = 1;
+  int i =1 ;
+  while (i<=num) {
+    factorial*=i;
+    i++;
   }
+  print(factorial);
 }
