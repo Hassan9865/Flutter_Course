@@ -5,8 +5,18 @@ void main(){
 studentRecord(){
   String name = 'Hassan';
   int age = 20;
-  String Grade = 'A';
-  String location ='karachi' ;
+
+
+
+
+      
+  String Grade = 'A';                 
+
+
+
+
+     
+     String location ='karachi' ;
   print(name);
   print(age);
   print(Grade);
