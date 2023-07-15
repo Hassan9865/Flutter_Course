@@ -20,7 +20,7 @@
     //   return a+b;
     // }
     
-
+             /// factorial program ///
 
 void main() {
   int number =5;
