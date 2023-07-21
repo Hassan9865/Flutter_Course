@@ -9,7 +9,7 @@ void main() {
 
           //// Table 7 using for in loop
   
-    int num = 7;
+    int num = 6;
     for (var i in [1,2,3,4,5,6,6,7,8,9,10]) {
       int result = i*num;
       print ('$num x $i = $result ');
