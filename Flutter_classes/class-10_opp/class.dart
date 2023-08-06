@@ -1,11 +1,11 @@
 class Teacher{
-  String? name;
+  String? naame;
   int? age;
   String? subject;
   int? salary;
 
 Teacher({String? name = 'ksks',int? age = 12,String? subject = 'jsjs',int? salary = 993}){
-  this.name = name;
+  this.naame = name;
   this.age = age;
   this.subject = subject;
   this.salary= salary;
@@ -13,7 +13,7 @@ Teacher({String? name = 'ksks',int? age = 12,String? subject = 'jsjs',int? salar
 
 
 void display(){
-  print("name: ${this.name}");
+  print("name: ${this.naame}");
   print("age ${this.age}");
   print("subject ${this.subject}");
   print("salary ${this.salary}");
